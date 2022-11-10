@@ -1,0 +1,62 @@
+.email, .phone {
+    font-family: Montserrat;
+    font-weight: 700;
+    
+    &--header {
+        color: $white;
+    }
+
+    &--footer {
+        margin: 5px 0;
+        display: block;
+        color: $blue;
+    }
+
+    &--contact {
+        color: $black;
+        font-style: normal;
+        font-weight: 700;
+        display: block;
+    }
+}
+
+.email {
+    &--header {
+        margin-right: 20px;
+    }
+
+    &--contact {
+        color: $black;
+        font-style: normal;
+        font-weight: 700;
+        display: block;
+    }
+
+    @media (max-width: 479px) {
+        margin-right: 20px;
+    }
+}
+
+.language-btn {
+    margin-right: 15px;
+    padding: 0 2px;
+    background: none;
+    border: 1px solid transparent;
+
+    color: $white;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &--active, &:hover {
+        border: 1px solid $white;
+    }
+}

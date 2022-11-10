@@ -1,0 +1,52 @@
+.page-header {
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+    width: 100%;
+    height: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-header__title {
+    padding: 0 10px;
+    color: $white;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    &--contact {
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 40px;
+    }
+
+    .page-header__label {
+        display: block;
+
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+
+        @media (max-width: 479px) {
+            font-size: 12px;
+        }
+    }
+    
+
+    @media (max-width: 479px) {
+        font-size: 35px;
+    }
+}
+
+
+

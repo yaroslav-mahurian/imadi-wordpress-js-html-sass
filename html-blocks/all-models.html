@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" as="font" href="./../fonts/Roboto.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./../fonts/Robotomedium.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./../fonts/Montserrat-400.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./../fonts/Montserrat-600.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./../fonts/Montserrat-700.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./../fonts/Montserrat-900.woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/main.min.css">
+    <title>Imadi</title>
+</head>
+<body>
+    <div class="header-contacts">
+        <div class="container">
+            <div class="header-contacts__wrapper">
+                <div class="header-contacts__item">
+                    <a href="mailto:imadi.poland@gmail.com" class="email email--header">imadi.poland@gmail.com</a>
+                    <a href="tel:+48000000000" class="phone phone--header">+48 000-000-000</a>
+                </div>
+                <div class="header-contacts__item flex-end">
+                    <div class="header-contacts__socials">
+                        <a href="https://facebook.com" class="header-contacts__link">facebook</a>
+                        <a href="https://instagram.com" class="header-contacts__link">instagram</a>
+                    </div>
+                    <div class="header-contacts__language-btns">
+                        <button class="language-btn language-btn--active">PL</button>
+                        <button class="language-btn">DE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo"><img src="./../img/logo-blue.svg" alt="imadi-logo" class="header__logo-img"></a>
+            
+                <button id="headerBurger" class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            
+
+                <nav id="menuWrapper" class="nav nav--header">
+                    <a href="./html-blocks/all-models.html" class="nav__link">
+                        <span class="nav__link-text">Kuchnie <br class="mobile-hidden"> IMADI</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <span class="nav__link-text">Salony <br class="mobile-hidden"> IMADI</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <span class="nav__link-text">Meble <br class="mobile-hidden">
+                        Geometree
+                        </span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <span class="nav__link-text">Wbudowane <br class="mobile-hidden"> wyposażenie</span>
+                    </a>
+                    <a href="./html-blocks/info.html" class="nav__link">
+                        <span class="nav__link-text">Informacje <br class="mobile-hidden"> dla kupującego</span>
+                    </a>
+                    <a href="./html-blocks/calculate.html" class="nav__link nav__link--bold">
+                        <span class="nav__link-text">Oblicz <br class="mobile-hidden"> koszt kuchni</span>
+                    </a>
+                    <div class="nav__btn">
+                        <div class="btn-container">
+                            <a href="./html-blocks/contact.html" class="btn"><span class="btn__title">kontakt</span></a>
+                        </div>
+                    </div>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+                <h1 class="page-header__title">
+                    <span class="page-header__label">Kuchnie</span> IMADI
+                </h1>
+        </div>
+    </div>
+
+    <div class="all-models">
+        <div class="container">
+            <div class="all-models__filter">
+                <div class="select select--all-models">
+        
+                    <div class="select__header select__header--all-models">
+                        <span class="select__current">STYL</span>
+                        <div class="select__icon select__icon--all-models">
+                            <img src="./../img/icons/arrow-down.svg" alt="arrow-down">
+                        </div>
+                    </div>
+                    
+                    <div class="select__body select__body--page-filter">
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleClassic" name="style" value="yes">
+                            <label for="checkStyleClassic">Klasyczny</label>
+                        </div>
+                        
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleModern" name="style" value="yes">
+                            <label for="checkStyleModern">Nowoczesny</label>
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="select select--all-models">
+        
+                    <div class="select__header select__header--all-models">
+                        <span class="select__current">Materiał elewacji</span>
+                        <div class="select__icon select__icon--all-models">
+                            <img src="./../img/icons/arrow-down.svg" alt="arrow-down">
+                        </div>
+                    </div>
+                    
+                    <div class="select__body select__body--page-filter">
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleClassic" name="style" value="yes">
+                            <label for="checkStyleClassic">Klasyczny</label>
+                        </div>
+                        
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleModern" name="style" value="yes">
+                            <label for="checkStyleModern">Nowoczesny</label>
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="select select--all-models">
+        
+                    <div class="select__header select__header--all-models">
+                        <span class="select__current">Kolor</span>
+                        <div class="select__icon select__icon--all-models">
+                            <img src="./../img/icons/arrow-down.svg" alt="arrow-down">
+                        </div>
+                    </div>
+                    
+                    <div class="select__body select__body--page-filter">
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleClassic" name="style" value="yes">
+                            <label for="checkStyleClassic">Klasyczny</label>
+                        </div>
+                        
+                        <div class="select__item">
+                            <input type="checkbox" class="all-models__checkbox" id="checkStyleModern" name="style" value="yes">
+                            <label for="checkStyleModern">Nowoczesny</label>
+                        </div>
+                    </div>
+            
+                </div>
+
+                <a href="#" class="all-models__filter-clear">wyczyść filtry</a>
+            </div>
+
+            <div class="all-models__wrapper">
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+
+                    <div class="all-models__item-disc all-models__item-disc--blue">-17%</div>
+                    <div class="all-models__item-disc all-models__item-disc--red">-17%</div>
+                </div>
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+                </div>
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+                </div>
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+                </div>
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+                </div>
+
+                <div class="all-models__item">
+                    <div class="all-models__item-photo">
+                        <img src="./../img/kitchens/simone.png" alt="kitchen-photo">
+                    </div>
+
+                    <h3 class="all-models__item-title">
+                        Simone
+                    </h3>
+                </div>
+
+            </div>
+
+            <div class="page-pagination page-pagination--all-models">
+                <div class="page-pagination__el page-pagination__el--active">
+                    <span class="page-pagination__el-number">
+                        1
+                    </span>
+                </div>   
+                <div class="page-pagination__el">
+                    <span class="page-pagination__el-number">
+                        2
+                    </span>
+                </div>   
+                <div class="page-pagination__el">
+                    <span class="page-pagination__el-number">
+                        3
+                    </span>
+                </div>
+
+                <div class="page-pagination__el">
+                    <div class="page-pagination__el-arrow">
+                        <svg width="10" height="6" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
+                            <path class="page-pagination__arrow-img" d="M0 0.5L5.00002 5.5L10 0.5H0Z" fill="#323232"/>
+                            </svg> 
+                    </div>                     
+                </div>   
+                
+            </div>
+        </div> <!-- ./container -->
+    </div>
+    
+    <section class="models" id="popularModels">
+        <div class="container">
+    
+            <h3 class="section__label">najlepszy wybór</h3>
+            <h2 class="section__title">Najpopularniejsze modele</h2>
+    
+            <div class="models__wrapper">
+                <div class="swiper-container swiper-models">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide models-slide">
+                        <div class="models__item">
+                            <div class="models__photo">
+                                <img src="./../img/models/photo-1.png" alt="kitchen-photo" class="models__photo-img">
+                            </div>
+                            <h3 class="models__title">Freda</h3>
+                            <div class="models__desc">
+                                Barwy, które najlepiej pasują dla Twojego interieru znajdziesz tylko w tek kuchni. Jakość i instalację gwarantujemy.
+                            </div>
+                            
+                            <div class="models__btn">
+                                <div class="btn-container btn-container--center">
+                                    <a href="#" class="btn btn--models"><span class="btn__title">zobacz więcej</span></a>
+                                </div>
+                            </div>
+            
+                        </div>
+                      </div>
+    
+                      <div class="swiper-slide models-slide">
+                        <div class="models__item">
+                            <div class="models__photo">
+                                <img src="./../img/models/photo-2.png" alt="kitchen-photo" class="models__photo-img">
+                            </div>
+                            <h3 class="models__title">Capri</h3>
+                            <div class="models__desc">
+                                Jeśli chcesz, żeby kuchnia była miejscem nie tylko gotowania, lecz także odpoczynku, wybierz kuchnię Capri!
+                            </div>
+                            
+                            <div class="models__btn">
+                                <div class="btn-container btn-container--center">
+                                    <a href="#" class="btn btn--models"><span class="btn__title">zobacz więcej</span></a>
+                                </div>
+                            </div>
+            
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide models-slide">
+                        <div class="models__item">
+                            <div class="models__photo">
+                                <img src="./../img/models/photo-3.png" alt="kitchen-photo" class="models__photo-img">
+                            </div>
+                            <h3 class="models__title">Arli</h3>
+                            <div class="models__desc">
+                                Ta opcja będzie najlepszym rozwiązaniem dla małej kuchni, która musi mieć styl i wysoką funkcjonlność.
+                            </div>
+                            
+                            <div class="models__btn">
+                                <div class="btn-container btn-container--center">
+                                    <a href="#" class="btn btn--models"><span class="btn__title">zobacz więcej</span></a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide models-slide">
+                        <div class="models__item">
+                            <div class="models__photo">
+                                <img src="./../img/models/photo-3.png" alt="kitchen-photo" class="models__photo-img">
+                            </div>
+                            <h3 class="models__title">Arli</h3>
+                            <div class="models__desc">
+                                Ta opcja będzie najlepszym rozwiązaniem dla małej kuchni, która musi mieć styl i wysoką funkcjonlność.
+                            </div>
+                            
+                            <div class="models__btn">
+                                <div class="btn-container btn-container--center">
+                                    <a href="#" class="btn btn--models"><span class="btn__title">zobacz więcej</span></a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-pagination-wrapper">
+                    <div class="swiper-pagination swiper-section-pagination models-pagination">
+                        <div class="swiper-section-pagination__el models-pagination__el swiper-section-pagination__el--active"></div>
+                        <div class="swiper-section-pagination__el"></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-nav-btns">
+                    <div id="swiperModelsBtnPrev" class="swiper-button-prev swiper-button-prev--no-indent">
+                        <img class="swiper-button-icon" src="./../img/icons/arrow-prev-black.svg" alt="btn-prev">
+                    </div>
+                    <div id="swiperModelsBtnNext" class="swiper-button-next swiper-button-next--no-indent">
+                        <img class="swiper-button-icon" src="./../img/icons/arrow-next-black.svg" alt="btn-next">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div> <!-- ./container -->
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col">
+                    <div class="footer__title">MENU</div>
+                    <a href="#" class="footer__link">Wbudowane wyposażenie</a>
+                    <a href="#" class="footer__link">Kuchnie GEOS ideal</a>
+                    <a href="#" class="footer__link">Salony GEOS ideal</a>
+                    <a href="#" class="footer__link">Meble Geometree</a>
+                    <a href="#" class="footer__link">Informacja dla kupującego</a>
+                    <a href="#" class="footer__link">Oblicz koszt kuchni </a>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__title">WSPARCIE</div>
+                    <a href="#" class="footer__link">Polityka Prywatności</a>
+                    <a href="#" class="footer__link">Kontakt</a>
+                </div>
+                <div class="footer__col footer__col--news">
+                    <div class="footer__title">Aktualności</div>
+                    <a href="#" class="footer__link footer__link--news">Czy warto zamawiać
+                        kuchnię w IMEDI?</a>
+                    <a href="#" class="footer__link footer__link--news">Plusy i minusy indywidualnego podejścia do wyboru mebli</a>
+                    <a href="#" class="footer__link footer__link--news">Samodzielna renowacja kuchni - nasza opinia</a>
+                </div>
+                <div class="footer__col footer__col--info">
+                    <div class="footer__title footer__title--info">Imadi Sp. z o.o.</div>
+                    <address class="footer__link footer__link--info">ul. Granitowa 18/8, Smolec, 
+                        55-080 Kąty Wroclawskie
+                    </address>
+                    <div class="footer__link footer__link--info">
+                        NIP 8961601822, REGON 388365896
+                        KRS 0008?7852 
+                    </div>
+                    <div class="footer__contacts">
+                        <a href="mailto:imadi.poland@gmail.com" class="email email--footer">imadi.poland@gmail.com</a>
+                        <a href="tel:+48000000000" class="phone phone--footer">
+                            +48 000-000-000</a>
+                    </div>
+    
+                    <div class="footer__btn">
+                        <div class="btn-container">
+                            <a href="#" class="btn"><span class="btn__title">Zadzwoń</span></a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-contacts">
+        <div class="container">
+            <div class="footer-contacts__wrapper">
+                <a href="#" class="footer__logo">
+                    <img src="./../img/logo-white.svg" alt="imadi-logo" class="footer__logo-img">
+                </a>
+                <div class="footer-contacts__socials">
+                    <a href="https://facebook.com" class="footer-contacts__link">facebook</a>
+                    <a href="https://instagram.com" class="footer-contacts__link">instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-up" id="buttonUp">
+        <img src="./../img/icons/arrow-up-white.svg" alt="arrow-up">
+    </div>
+
+    <script src="./../index.bundle.js"></script>
+
+</body>
+</html>

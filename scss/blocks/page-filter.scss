@@ -1,0 +1,42 @@
+.page-filter .primary-sidebar {
+    color: $black;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+}
+
+.page-filter__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-start;
+}
+
+.page-filter-count {
+    padding: 7px 20px;
+    display: flex;
+
+    border: 1px solid $black;
+}
+
+.page-filter-count__title {
+    margin-right: 7px;
+}
+
+.page-filter-count__el {
+    padding-left: 7px;
+    padding-right: 7px;
+
+    &:hover {
+        color: $blue;
+
+        cursor: pointer;
+    }
+
+    &--active {
+        color: $blue;
+    }
+}

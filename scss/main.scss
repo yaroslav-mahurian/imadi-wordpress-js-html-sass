@@ -1,0 +1,154 @@
+@import "base/variables";
+@import "base/fonts";
+@import "base/mixins";
+@import "base/animation";
+
+@import "libs/swiper/swiper";
+@import "libs/hamburgers/hamburgers";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat;
+    color: $black;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    overflow: scroll !important;
+    overflow-x: auto !important;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    position: relative;
+
+    @media (max-width: 1199px) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    @media (max-width: 479px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.bapf_show_hide {
+    display: none;
+    opacity: 0;
+    appearance: none;
+}
+
+/* Blocks */
+@import "blocks/header-contacts";
+@import "blocks/hamburger";
+@import "blocks/email";
+@import "blocks/btn";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/swiper-btns";
+@import "blocks/section";
+@import "blocks/models";
+@import "blocks/services";
+@import "blocks/news";
+@import "blocks/about";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/footer-contacts";
+@import "blocks/page-header";
+@import "blocks/page-filter";
+@import "blocks/select";
+@import "blocks/all-models";
+@import "blocks/page-pagination";
+@import "blocks/page-roadmap";
+@import "blocks/one-model";
+@import "blocks/contact";
+@import "blocks/info-news";
+@import "blocks/info-one";
+@import "blocks/calculate";
+@import "blocks/contact-address";
+@import "blocks/button-up";
+@import "blocks/loader";
+
+
+.hidden {
+    display: none;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+@media (max-width: 999px) {
+    .mobile-hidden {
+        display: none;
+    }   
+}
+
+.block {
+    margin-top: 1500px;
+}
+
+/* Media */
+@import "base/media";
+
+@media (max-width: 1439px) {
+    
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 999px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

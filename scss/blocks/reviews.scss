@@ -1,0 +1,161 @@
+.reviews {
+    padding: 80px 0;
+
+    background-color: #F7FAFD;
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 479px) {
+        padding: 40px 0;
+    }
+}
+
+.swiper-reviews {
+    @media (max-width: 1439px) {
+        max-width: 1000px;
+    }
+
+    @media (max-width: 767px) {
+        max-width: 320px;
+    }
+}
+
+.reviews__wrapper {
+    padding: 0 100px;
+    position: relative;
+
+    @media (max-width: 767px) {
+        padding: 0px;
+    }
+}
+
+.reviews-slide__wrapper {
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 999px) {
+        flex-direction: column-reverse;
+    }
+
+    @media (max-width: 479px) {
+        margin-top: 20px;
+    }
+}
+
+.reviews-slide__photo {
+    width: 57.5%;
+
+    @media (max-width: 999px) {
+        width: 70%;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.reviews-slide__photo-img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.reviews-slide__text {
+    width: 37.5%;
+
+    @media (max-width: 999px) {
+        width: 60%;
+    }
+
+    @media (max-width: 767px) {
+        width: 80%;
+    }
+}
+
+.reviews-slide__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    letter-spacing: 0.02em;
+
+    @media (max-width: 999px) {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 28px;
+    }
+}
+
+.reviews-slide__desc {
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+
+    letter-spacing: 0.02em;
+
+    @media (max-width: 999px) {
+        text-align: justify;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 13px;
+    }
+}
+
+.reviews__pagination-wrapper {
+    width: 100%;
+    position: relative;
+
+    @media (max-width: 999px) {
+        margin-top: 50px;
+    }
+}
+
+/* .reviews-pagination {
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reviews-pagination__el {
+    margin-right: 8px;
+
+    width: 8px;
+    height: 8px;
+    box-shadow: 0 0 0 2px transparent;
+    border-radius: 50%;
+
+    background-color: $black;
+    cursor: pointer;
+    position: relative;
+
+    transition: background-color .1s linear, box-shadow .1s linear;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &--active {
+        width: 8px;
+        height: 8px;
+        background-color: $white;
+        box-shadow: 0 0 0 2px $blue;
+    }
+} */

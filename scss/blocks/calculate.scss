@@ -1,0 +1,23 @@
+.calculate {
+    padding-top: 80px;
+
+    @media (max-width: 767px) {
+        padding-top: 60px;
+    }
+
+    @media (max-width: 479px) {
+        padding-top: 40px;
+    }
+}
+
+.calculate__title {
+    text-align: center;
+}
+
+.calculate__contact {
+    margin-top: 60px;
+
+    @media (max-width: 479px) {
+        margin-top: 30px;
+    }
+}

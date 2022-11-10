@@ -1,0 +1,16 @@
+.hamburger {
+    display: none;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    @media (max-width: 999px) {
+        display: block;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0;
+    }
+}
